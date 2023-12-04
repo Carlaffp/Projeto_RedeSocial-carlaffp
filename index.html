@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/globalStyle.css">
+    <link rel="stylesheet" href="./src/styles/index.css" />
+
+    
+    <script type="module" src=".//src/scripts/index.js" defer></script>
+
+    <!-- FONTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
+    <title>Criando rede social</title>
+
+  </head>
+  <body>
+    <header class="header__container">
+      <img src="./src/assets/img/logo.svg" alt="Logo">
+      <button class="header__button">Sair</button>
+    </header>
+    <main>
+      <section class="formEndSuggest__container">
+        
+        <div class="form__container">
+          <div class="form__div">
+            <img class="form__img" src="./src/assets/img/user1.svg" alt="foto">
+            <p class="form__name"> Samuel Leão</p>
+            <p class="form__stack">Front end Engineer</p>
+          </div>
+          <form class="form__element">
+              <input type="text" class="titlePost" placeholder="Digitar título do post">
+              <textarea name="" class="descriptionPost"   placeholder="Digitar descrição do post"></textarea> 
+            <button class="form__button" type="submit">Postar</button>
+          </form>
+        </div>
+        <aside class="aside__container">
+          <h2 class="aside__title">Sugestões para você seguir</h2>
+          <ul class="aside__list">
+          </ul>
+        </aside>
+
+      </section>
+    
+    <section class="post__container">
+      <h1>Posts</h1>
+      <section class="posts__list">
+         </section>
+
+    </section>
+      
+    </main>
+    <dialog class="modal__controler"></dialog>
+  </body>
+</html>

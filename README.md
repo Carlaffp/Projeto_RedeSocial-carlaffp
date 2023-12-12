@@ -1,6 +1,7 @@
 # Projeto_RedeSocial
 
 **Descrição**:
+
 Desenvolvi uma aplicação de rede social responsiva utilizando HTML, CSS e JavaScript. O objetivo era criar um layout semelhante ao de redes sociais populares, com funcionalidades específicas, como a exibição dinâmica de posts e a implementação de um modal para visualização detalhada de cada post.
 
 **Principais Funcionalidades**:
@@ -27,6 +28,7 @@ Desenvolvi uma aplicação de rede social responsiva utilizando HTML, CSS e Java
  - JavaScript: Manipulação do DOM para renderizar posts e criar a lógica do modal.
 
 **Resultados**:
+
 A aplicação resultante oferece uma experiência de usuário intuitiva, permitindo a navegação entre postagens e a visualização detalhada através de um modal interativo. O design responsivo garante uma aparência consistente em diferentes dispositivos, proporcionando uma experiência agradável para os usuários.
 
 **Aprendizados**:
